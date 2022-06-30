@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;  
+  }
+  body{
+     background-image: url("Images/FondoSesionRegistro.jpg");  
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+  
+  }
+  main{
+      width: 100%;
+      padding: 20px;
+      margin: auto;
+      margin-top: 100px;
+  }
+  .Contenedor_Registro{
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+      position: relative;
+  }
+  .Caja_Trasera{
+      width: 100%;
+      padding: 10px 20px;
+      justify-content: center;
+      backdrop-filter: blur(10px);
+      background-color: rgb(135, 127, 64, 0.5);
+  
+  }
+  .Caja_Trasera div{
+      margin: 70px;
+      color: rgb(255,255,255);
+  }
+  
+  .Caja_Trasera div p{
+      margin-top: 30px;
+  }
+  .Caja_Trasera div h5{
+    margin-top: 20px;
+    font-weight: 100px;
+    font-size: 15px;
+}
+  .Caja_Trasera div h3{
+      font-weight: 400px;
+      font-size: 26px;
+  }
+  .Caja_Trasera p{
+      padding: 10px 20px;
+      border: 2px solid blanchedalmond;
+      background: transparent;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      color: blanchedalmond;
+      outline: none;
+      transition: all 300ms;
+      width: 150px;
+      text-align: center;
+
+      
+  }
+  .Caja_Trasera p:hover{
+      background: rgb(211, 198, 179);
+      color: rgb(0, 0, 0);
+  }
+  /*formu*/
+  .Caja_Delantera{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      max-width: 380px;
+      position: relative;
+      top: -185px;
+      left: 390px;
+  
+  }
+  .Caja_Delantera form{
+      width: 100%;
+      padding: 40px 20px;
+      background-color: rgb(211, 198, 179);
+      position: absolute;
+      border-radius: 20px;
+      top: -225px;
+  
+  }
+  .Caja_Delantera form h2{
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: rgb(135, 127, 64);
+  }
+  .Caja_Delantera form input{
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border: none;
+      background: white;
+      font-size: 16px;
+      outline: none;
+  }
+  .Caja_Delantera form select{
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+      border: none;
+      background: white;
+      outline: none;
+ }
+  .Caja_Delantera form p{
+      padding: 10px 20px;
+      border: 2px solid rgb(135, 127, 64);
+      background: transparent;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      color: rgb(135, 127, 64);
+      outline: none;
+      transition: all 300ms;
+      width: 80;
+      text-align: center;
+      margin-top: 20px;
+ }
+ .Caja_Delantera form p:hover{
+      background: rgb(135, 127, 64);
+      color: rgb(211, 198, 179);
+ }

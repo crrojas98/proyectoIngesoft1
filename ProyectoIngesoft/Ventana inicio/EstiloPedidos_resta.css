@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;  
+  }
+body{
+    background-image: url("Images/Fondo_Perfin_Restaurante.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+}
+.Contenedor_Pedidos {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+.Contenedor_Pedidos h1{
+  text-align: center;
+  font-weight: 400px;
+  font-size: 60px;
+}
+.Contenedor_Pedientes {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  position: relative;
+  left: 500px;
+  top: 25px;
+}
+.Contenedor_Pedientes div{
+  margin: 70px;
+  color: blanchedalmond;
+}
+.Contenedor_EnCurso {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  background-color: transparent;  
+  position: relative;
+  top: -25px;
+}
+.Contenedor_Pedidos h2{
+  color: rgb(236, 198, 150);
+}
+.Contenedor_EnCurso div{
+  margin: 70px;
+  color: blanchedalmond;
+}

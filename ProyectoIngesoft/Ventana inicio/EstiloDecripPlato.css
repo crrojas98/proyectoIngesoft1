@@ -1,0 +1,139 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;  
+}
+body{
+    background-image: url("Images/images_platos/Fondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    width: 100%;
+    padding:10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.Contenedor_DEscripcionPlato{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(231, 231, 145 , 0.5);
+}
+.Contenedor_DEscripcionPlato h1{
+    margin-top: 20px;
+    font-weight: 300px;
+    font-size: 80px;
+    text-align: center;
+}
+.Imagen {
+    top: 30px;
+    left: -200px;
+    width: 100%;
+    max-width: 340px;
+    height: 220px;
+    margin: auto;
+    position: relative; 
+    background-image: url("Images/images_rest/Promocionar-un-restaurante-segun-Google.webp") ;
+    background-size: cover;
+}
+.Descripcion{
+    display: flex;
+    width: 100%;
+    padding: 10px 80px;
+    position: relative;
+    top: -250px;
+    left: 770px;   
+}
+.Descripcion h5{
+    margin-top: 90px;
+    max-width: 400px;
+    font-weight: 200px;
+    font-size: 28px;
+    margin-left: -300px;
+    text-align: center;
+    left: -160px;
+    position: relative;
+    top: -20px;
+}
+.Descripcion h4{
+    margin-top: 90px;
+    max-width: 400px;
+    font-weight: 200px;
+    font-size: 20px;
+    margin-left: -300px;
+    text-align: center;
+    left: -500px;
+    position:relative;
+    top: 220px;
+}
+.selecbebi {
+    width: 120px;
+    height: 25px;
+    margin-top:20px;
+    border: none;
+    background: white;
+    outline: none;
+    position: relative;
+    top: 340px;
+    left: -260px;
+}
+.selecporc{
+    text-align: ;
+    width: 120px;
+    height: 25px;
+    margin-top:20px;
+    border: none;
+    background: white;
+    outline: none;
+    position: relative;
+    top: 390px;
+    left: -380px;
+}
+.beber{
+    margin-top: 90px;
+    max-width: 400px;
+    font-weight: 200px;
+    font-size: 20px;
+    margin-left: -300px;
+    text-align: center;
+    left: -370px;
+    position:relative;
+    top: 270px;
+}
+.Porc{
+    margin-top: 90px;
+    max-width: 400px;
+    font-weight: 200px;
+    font-size: 20px;
+    margin-left: -300px;
+    text-align: center;
+    left: -140px;
+    position:relative;
+    top: 320px;
+}
+.Seleccionando{
+    padding: 10px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background: transparent;
+    font-size: 25px;
+    font-weight: 620;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline: none;
+    transition: all 300ms;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    position: relative;
+    top: 370px;
+    left: 180px;
+}
+.Seleccionando:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="EstiloRegistro.css">
+</head>
+<body>
+    <main>
+        <div class="Contenedor_Registro">
+            <div class="Caja_Trasera">
+                <div class="Iniciosesion">
+                    <h3>¿Ya te Registraste?</h3>
+                    <h5>Inicia sesion para ingresar</h5>
+                    <p id="btnInicioSesion">Iniciar Sesion</p>
+                </div>
+            </div>
+            <div class="Caja_Delantera">
+                <form action=""class="">
+                    <h2>REGISTRARSE</h2>
+                    <input type="text" placeholder="Nombre" id="Nombre_Usu" required >
+                    <input type="password" placeholder="Contraseña" id="Conraseña" required>
+                    <input type="text" placeholder="Correo" id="Correo" requitred>
+                    <select name="Tipo_de_documento" id="Tipo_de_documento">
+                        <script src="Desplejable1.js"></script>
+                    </select>
+                    <input type="text" placeholder="Numero de documento" id="Numero_Documento" required>
+                    <input type="text" placeholder="Numero de telefono" id="Numero_Tele" required>
+                    <input type="text" placeholder="Direccion" id="Direccion" required>
+                    <select name="Forma_de_Pago" id="Forma_de_pago">
+                        <script src="DesplegableFormaPago.js"></script>
+                    </select>
+                    <p id="btnEnviar">Enviar</p>
+
+                </form>
+
+            </div>
+            
+        </div>
+        <script src="BotonInicioSesion.js">Boton_iniciosesion</script>
+    </main>    
+
+    
+</body>
+</html>

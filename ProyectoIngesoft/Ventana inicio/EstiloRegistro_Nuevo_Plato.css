@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;  
+  }
+body{
+    background-image: url("Images/Fondo_Nuevo_Plato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+.Contenedor_Nuevo_plato{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 580px;
+    position: relative;
+    top: 210px;
+    left: 350px;
+
+}
+.Contenedor_Nuevo_plato form{
+    width: 100%;
+    padding: 60px 20px;
+    background-color: rgb(211, 198, 179);
+    position: absolute;
+    border-radius: 20px;
+    top: -260px;
+
+}
+.Contenedor_Nuevo_plato form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(135, 127, 64);
+}
+.Contenedor_Nuevo_plato form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: white;
+    font-size: 16px;
+    outline: none;
+}
+.Contenedor_Nuevo_plato form select{
+       width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: white;
+    outline: none;
+}
+.Contenedor_Nuevo_plato form p{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(135, 127, 64);
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(135, 127, 64);
+    outline: none;
+    transition: all 300ms;
+    width: 80;
+    text-align: center;
+
+}
+.Contenedor_Nuevo_plato form p:hover{
+    background: rgb(135, 127, 64);
+    color: rgb(211, 198, 179);
+}

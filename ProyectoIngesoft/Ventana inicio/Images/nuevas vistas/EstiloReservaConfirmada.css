@@ -1,0 +1,58 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;  
+}
+body{
+    background-image: url("Images/fondo_reservaconfirmada.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}       
+main{
+    width: 100%;
+    padding:10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.Contenedor_DescripcionReserva{
+    width: 100%;
+    max-width: 700px;
+    max-height: 500px;
+    margin: auto;
+    position: relative;
+    background-color: rgba(27, 26, 27, 0.637);
+    left: -290px;
+    top: -10px;
+
+}
+.Contenedor_DescripcionReserva h1{
+    margin-top: 20px;
+    font-weight: 300px;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+}
+.textodescrip p{
+    margin-top: 40px;
+    font-weight: 200px;
+    font-size: 20px;
+    margin-left: -300px;
+    text-align: left;
+    left: 330px;
+    position:relative;
+    top: 30px;
+    color: white;
+}
+.textoFormu p{
+    margin-top: 40px;
+    font-weight: 200px;
+    font-size: 20px;
+    margin-left: -300px;
+    text-align: left;
+    left: 640px;
+    position:relative;
+    top: -225px;
+    color: white;
+}
